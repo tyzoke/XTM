@@ -126,7 +126,7 @@ public class Login extends JFrame implements ActionListener {
 			}
 			else if (ae.getSource() == b3) {
 				setVisible(false);
-				// new SignUp().setVisible(true);
+				new SignUp().setVisible(true);
 			}
 			else if (ae.getSource() == b4) {
 				try {
